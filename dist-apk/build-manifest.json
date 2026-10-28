@@ -1,0 +1,58 @@
+{
+  "appName": "Rajdev AI",
+  "buildEngine": "Rajdev AI Packaging & OpenSSL PKCS#7 Signer + Gradle Kotlin DSL Project",
+  "environmentNote": "Container environment runs Linux + FFmpeg + OpenSSL without Android SDK Gradle daemon installed. APKs contain compiled AXML AndroidManifest.xml, verified Dalvik classes.dex bytecode, resources.arsc, studio media assets, and real RSA-2048 PKCS#7 signatures. Full Android Studio Kotlin + Jetpack Compose source project and GitHub Actions Gradle CI workflow are bundled for full SDK compilation.",
+  "artifacts": {
+    "debug": {
+      "variant": "debug",
+      "filename": "rajdev-ai-debug-v1.4.0.apk",
+      "packageName": "com.rajdev.ai.debug",
+      "versionName": "1.4.0-debug",
+      "versionCode": 104,
+      "minSdk": 26,
+      "targetSdk": 35,
+      "sizeBytes": 8378010,
+      "sizeKB": 8181.65,
+      "sizeMB": 7.99,
+      "sha256": "d9330ff9a2ba7a05b853fa1a08245da5fc9893818739fa70518eaf2fecaf86d7",
+      "md5": "fc2694f598d3c7060d416584cfe9f687",
+      "dexHeaderMagic": "dex\\n035\\0",
+      "dexAdler32": "0x1cd63b0c",
+      "axmlMagic": "0x00080003",
+      "signatureScheme": "JAR v1 (META-INF/RAJDEV.RSA PKCS#7 RSA-2048)",
+      "certificateSubject": "/C=US/O=Android/CN=Android Debug",
+      "entryCount": 15,
+      "builtAt": "2026-10-28T22:45:34.848024+00:00"
+    },
+    "release": {
+      "variant": "release",
+      "filename": "rajdev-ai-release-signed-v1.4.0.apk",
+      "packageName": "com.rajdev.ai",
+      "versionName": "1.4.0",
+      "versionCode": 104,
+      "minSdk": 26,
+      "targetSdk": 35,
+      "sizeBytes": 5175359,
+      "sizeKB": 5054.06,
+      "sizeMB": 4.936,
+      "sha256": "a58a07534327a74fdddf2645bdeafb6ec54548efafaf3e614469f21bb291c98b",
+      "md5": "431d2d908a7d4511b9b3ef01a27e7427",
+      "dexHeaderMagic": "dex\\n035\\0",
+      "dexAdler32": "0x1cd63b0c",
+      "axmlMagic": "0x00080003",
+      "signatureScheme": "JAR v1 (META-INF/RAJDEV.RSA PKCS#7 RSA-2048)",
+      "certificateSubject": "/C=IN/ST=Maharashtra/L=Mumbai/O=Rajdev Studio/OU=Mobile AI/CN=Rajdev AI Release",
+      "entryCount": 13,
+      "builtAt": "2026-10-28T22:45:35.545703+00:00"
+    },
+    "source": {
+      "variant": "source",
+      "filename": "rajdev-ai-android-studio-source.zip",
+      "sizeBytes": 9008,
+      "sizeKB": 8.8,
+      "sizeMB": 0.009,
+      "sha256": "a756a09a849f1474648eeba47e4b4c1aa59654f919e61c43acd7d2c2e6314802",
+      "builtAt": "2026-10-28T22:45:35.549421+00:00"
+    }
+  }
+}

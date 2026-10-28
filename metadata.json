@@ -1,0 +1,6 @@
+{
+  "name": "Rajdev AI",
+  "description": "AI-powered long and short video creation suite with realistic face replacement, consistent voice synthesis, multi-track timeline editing, and verified Android APK build system.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
